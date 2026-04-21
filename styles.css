@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #111111;           
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #1a1a1a;          
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #e50914;                      
+}
+
+nav {
+    margin-top: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1em;
+}
+
+nav a:hover {
+    color: #e50914;
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+main h1, main h2 {
+    color: #e50914;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    border: 5px solid #e50914;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(229, 9, 20, 0.3);
+}
+
+footer {
+    background-color: #1a1a1a;
+    color: #aaa;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+a {
+    color: #e50914;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+main p:first-child {
+    font-size: 1.3em;
+    font-style: italic;
+}
