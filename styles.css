@@ -91,3 +91,7 @@ main p:first-child {
     font-size: 1.3em;
     font-style: italic;
 }
+.centerimage
+display:block;
+margin-left:auto;
+margin-right:auto;
