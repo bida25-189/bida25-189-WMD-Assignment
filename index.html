@@ -1,32 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>N.D.H Cinemas</title>
-    <link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>N.D.H Cinemas</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to N.D.H Cinemas!</h1>
-         <nav>
-            <a href="index.html">Home</a> |
-            <a href="about.html">About</a> |
-            <a href="contact.html">Contact</a>
-        </nav>
-    </header>
 
-    <main>
-        <p>Experience the magic of movies in the heart of Gaborone.</p>
-        <p>Now Showing: Blockbuster Hits • Family Movies • Latest Releases</p>
-        
-        <p>Here's a poster from one of our movies:</p>
-        <img src="https://picsum.photos/id/1015/800/400" alt="Movie Poster" width="800">
-        
-        <p>Book your tickets today and enjoy the best cinema experience!</p>
-    </main>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand" href="index.html">N.D.H Cinemas</a>
 
-    <footer>
-        <p>&copy; 2026 N.D.H Cinemas • Gaborone, Botswana</p>
-    </footer>
+<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+<li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+<li class="nav-item"><a class="nav-link" href="bookings.html">Book Tickets</a></li>
+<li class="nav-item"><a class="nav-link" href="feedback.html">Feedback</a></li>
+</ul>
+</div>
+</div>
+</nav>
+</header>
+
+<main class="container my-5">
+<div class="row">
+<div class="col-md-8">
+<h2 class="text-light">Welcome to N.D.H Cinemas!</h2>
+<p class="text-light">Experience the magic of movies in the heart of Gaborone.</p>
+<p class="text-light">Now Showing: Blockbuster Hits • Family Movies • Latest Releases</p>
+
+<p class="text-light">Now Showing Posters:</p>
+
+<div class="row g-4 mt-2">
+    <div class="col-md-4">
+<img src="images/aladin.jpg" alt="Aladdin" class="img-fluid rounded shadow">
+</div>
+
+<div class="col-md-4">
+<img src="images/blue.jpg" alt="Movie Poster" class="img-fluid rounded shadow">
+</div>
+
+<div class="col-md-4">
+<img src="images/Marvel.jpg" alt="Captain Marvel" class="img-fluid rounded shadow">
+</div>
+</div>
+
+<p class="mt-4">
+<a href="bookings.html" class="btn btn-danger btn-lg">Book Tickets Now</a>
+</p>
+</div>
+
+<div class="col-md-4">
+<div class="card bg-dark text-light">
+<div class="card-body">
+<h5 class="card-title text-danger">Did You Know?</h5>
+<p class="card-text">
+N.D.H Cinemas offers the biggest screen in Gaborone with Dolby sound and comfortable recliner seats.
+</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+
+<footer>
+<p>&copy; 2026 N.D.H Cinemas • Gaborone, Botswana</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
 </body>
+</html>    
